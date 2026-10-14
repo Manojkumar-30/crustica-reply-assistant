@@ -1,0 +1,27 @@
+# secrets and private data
+.env
+.env.*
+*.pem
+*.key
+secrets*
+*.local
+
+# dependencies and build output
+node_modules/
+dist/
+.cache/
+
+# editor, OS and temp files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.vscode/
+.idea/
+npm-debug.log*
+
+# customer data exports
+crustica-reply-backup*.json
+
+# local tooling
+.claude/
